@@ -1,0 +1,99 @@
+<body class="body">
+
+    <form class="form">
+    
+      <table class="firstlayer" cellspacing="0">
+         <tr>
+            <td>
+                <mat-form-field class="name" appearance="fill">
+                  <mat-label>First Name</mat-label>
+                  <input matInput placeholder="Ex. Junjun">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="lastname" appearance="fill">
+                  <mat-label>Last Name</mat-label>
+                  <input matInput matInput placeholder="Ex. Madagascar">
+                </mat-form-field>
+            </td>
+            <td>
+                <mat-form-field class="middle" appearance="fill">
+                  <mat-label>Middle Initial</mat-label>
+                  <input matInput>
+              </mat-form-field>
+           </td>
+        </tr>
+      </table>
+    
+      <table class="secondlayer" cellspacing="0">
+        <tr>
+          <td>
+            <mat-form-field class="email" appearance="fill">
+              <mat-label>Email</mat-label>
+              <input matInput matInput placeholder="Ex. Madagascar@gmail.com">
+            </mat-form-field>
+          </td>
+          <mat-form-field class="phonenumber" appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <span matPrefix>+63 &nbsp;</span>
+            <input type="tel" matInput placeholder="912-345-6789">
+          </mat-form-field>
+       </tr>
+      </table>
+    
+      <p>
+        <mat-form-field class="Address" appearance="fill">
+          <mat-label>Address</mat-label>
+          <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+        </mat-form-field>
+     
+      </p>
+    
+      <table class="fulladdress" cellspacing="0"><tr>
+        <td><mat-form-field class="city" appearance="fill">
+          <mat-label>City</mat-label>
+          <input matInput placeholder="Ex. San Francisco">
+        </mat-form-field></td>
+        <td><mat-form-field class="state" appearance="fill">
+          <mat-label>State</mat-label>
+          <input matInput placeholder="Ex. California">
+        </mat-form-field></td>
+        <td><mat-form-field class="postal" appearance="fill">
+          <mat-label>Postal Code</mat-label>
+          <input matInput #postalCode maxlength="5" placeholder="Ex. 94105">
+          <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+        </mat-form-field></td>
+      </tr></table>
+    </form>
+    
+    </body>
+
+    <!-- <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>First name</mat-label>
+        <input matInput>
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input matInput>
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Middle Name</mat-label>
+          <input matInput>
+        </mat-form-field></td>
+    </tr></table>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Address</mat-label>
+      <textarea matInput placeholder="Ex. 100 Main St"></textarea>
+  </mat-form-field>
+
+  <table class="example-full-width" cellspacing="0"><tr>
+
+    
+      <td><mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Number</mat-label>
+          <input matInput type="tel" maxlength="13" placeholder="+639561234567">
+          <mat-icon matSuffix>phone</mat-icon>
+      </mat-form-field></td>
+  </tr></table> -->

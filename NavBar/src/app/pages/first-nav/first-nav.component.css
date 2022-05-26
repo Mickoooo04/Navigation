@@ -1,0 +1,33 @@
+.body{
+    background-color: rgba(72, 73, 136, 0.349);
+  }
+  
+  .form {
+      min-width: 200px;
+      max-width: 500px;
+      min-height: fit-content;
+      margin-left: 280px; 
+    }
+  
+    
+  .fulladdress {
+      width: 100%;
+  }
+  
+  .Address {
+    width: 124%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+  
+  
+  .email{
+    width: 150%;
+  }
+  
+  .phonenumber{
+    width: 300px;
+    margin-left: 37%;
+  }

@@ -1,0 +1,13 @@
+button{
+    margin-top: 15%;
+    padding: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 23%;
+    border: 2px solid;
+}
+
+body{
+    background-color: rgb(197, 171, 100);
+    
+}
